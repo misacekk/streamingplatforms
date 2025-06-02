@@ -1,15 +1,29 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        Scanner sc = new Scanner(System.in);
+ArrayList <Obsah> obsah = new ArrayList<Obsah>();
+
+boolean cycle = true;
+while (cycle) {
+    System.out.print("Co chceš dělat?");
+    System.out.print("1. Přidat obsah.");
+    System.out.print("2. Vypsat všechny youtube videa.");
+    System.out.print("3. Vypsat délku nejkratšího obsahu.");
+    System.out.print("4. Konec programu.");
+    int vyber = sc.nextInt();
+    sc.nextInt();
+    switch (vyber) {
+        case 1->{
+
         }
+    }
+
+
+}
+
     }
 }
